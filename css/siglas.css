@@ -1,0 +1,41 @@
+.nano { background: #fff; width: 100%; height: 110px; font-size: 18px;}
+.nano > .nano-content { padding: 5px; }
+.nano > .nano-pane   { background: #ccc; }
+.nano > .nano-pane > .nano-slider { background: #000; }
+.nano .nano-content { padding: 20px; }
+.nano .nano-pane { background: #555; width: 8px; right: 1px; margin: 5px; }
+.nano .nano-slider { background: #000; }
+
+.logo{
+	max-height:90px;
+}
+.barrabusca{
+	background-color:#4d4d4f;
+	padding:20px 0px 20px 0px;
+}
+.barralista{
+	background-color:#ffffff;
+	padding:20px 0px 20px 0px;
+}
+.divbloco{
+	height:300px;
+	margin-bottom:25px;
+	overflow:hidden;
+}
+.boxsigla {
+	height:60px;
+	overflow:hidden;
+	margin-bottom:4px;
+	width:100%;
+	background-color:#4D4D4F;
+	-webkit-border-radius: 32px 6px 42px 6px;
+	-moz-border-radius: 32px 6px 42px 6px;
+	border-radius: 32px 6px 42px 6px;
+	-webkit-box-shadow: #B3B3B3 3px 3px 3px;
+	-moz-box-shadow: #B3B3B3 3px 3px 3px;
+	box-shadow: #B3B3B3 3px 3px 3px;
+}
+.siglah1 {
+	margin-top:10px;
+	color:#fff;
+}

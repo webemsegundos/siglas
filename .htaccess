@@ -1,0 +1,8 @@
+Options -Indexes
+Options +Followsymlinks
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/index.htm$
+RewriteRule .* /index.htm [L,QSA]
